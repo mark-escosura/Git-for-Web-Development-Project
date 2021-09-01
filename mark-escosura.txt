@@ -109,17 +109,27 @@ Whenever I am finished with a step, that’s when I commit to GitHub.
 The command to use to push our repository to GitHub is $ git push -m origin “GitHub username”
 
     37. Walk me through Lambda's git flow. 
-
-
+Create own version of repo by forking the project.
+Name should be in front of the repo name before the slash if forking is successful.
+Clone repo using git / download button
+Inside terminal, use the cd command to the file folder.
+Git clone the SSH git@github url
+Git checkout -b "user.name"
+Switch to branch (message)
+Change something in the project / code.
+git status
+git add .
+git commit -m "commit message"
+git push -u origin "user.name"
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-The difference between an inline element and a block element is that____ and an inline element
+The difference between an inline element and a block element is that an inline element takes over the assigned width within the webpage while the block element, takes up the full width of the webpage.
     2. What happens when an element is positioned absolutely? 
-
+It has its own layer that seperates it from everything else.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+p,h1 to h6,address are the types of element that are display block by default, while em,strong,and span are display inline by default. Display inline-block on the other hand, there is width.
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-    
+The box model consist of padding, border, content, and margin. The fix for the box model is height and width. 
